@@ -27,7 +27,7 @@ public class CountnumberWithAWT {
                 String input = textField.getText();
                 try {
                     int value = Integer.parseInt(input);
-                    count[1] += value;
+                    count[0] += value;
                     countLabel.setText("Count: " + count[0]);
                     textField.setText("");
                 } catch (NumberFormatException ex) {
